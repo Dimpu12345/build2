@@ -1,2 +1,3 @@
-fastapiuvicorn
+fastapi
+uvicorn
 pytest
