@@ -1,10 +1,11 @@
-name: CI/CD Workflow  
+
+      name: CI/CD Workflow  
 
 on:
   
-  pull_request:
+  push:
     branches:
-      - branch2
+      - main
 
 jobs:
   build:
